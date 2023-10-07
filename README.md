@@ -1,4 +1,4 @@
-# Modpack Name 汉化补丁
+# Chunk Block 汉化补丁
 CurseForge|Modrinth|Modpack Version|Status
 :-|:-|:-|:-
 [Chunk Block](https://www.curseforge.com/minecraft/modpacks/chunk-block)|[无]()|0.0.6 Release|*Active*|
