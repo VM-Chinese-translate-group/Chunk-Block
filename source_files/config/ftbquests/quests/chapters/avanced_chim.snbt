@@ -17,123 +17,141 @@
 		{
 			dependencies: ["339F86B887F4D025"]
 			id: "228158AE202C7EB8"
-			tasks: [{
-				id: "7540A5611B7DEFCF"
-				item: "adchimneys:glass_chimney"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7540A5611B7DEFCF"
+					item: "adchimneys:glass_chimney"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2B427C5F71F01E1A"]
-			description: ["an iron version of the Chimney, unlike the stone this one can not be painted but will make some blocks small bit faster"]
+			description: ["{ftbquests.chapter.avanced_chim.quests1.description}"]
 			id: "2110D7F701C58513"
-			tasks: [{
-				id: "4505114AE5003F2B"
-				item: "adchimneys:metal_chimney"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4505114AE5003F2B"
+					item: "adchimneys:metal_chimney"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["416B6D6D07E27426"]
 			description: [
-				"needed to pull from stone vents"
+				"{ftbquests.chapter.avanced_chim.quests2.description0}"
 				""
-				"Vent must be on the side of block and chimneys on top"
+				"{ftbquests.chapter.avanced_chim.quests2.description2}"
 			]
 			id: "17B0F1CDA48F2D2C"
-			tasks: [{
-				id: "1CF84944FD76B90F"
-				item: "adchimneys:stone_pump"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1CF84944FD76B90F"
+					item: "adchimneys:stone_pump"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["2110D7F701C58513"]
-			description: ["For left to right movement of smoke"]
+			description: ["{ftbquests.chapter.avanced_chim.quests3.description}"]
 			id: "1D9FFEF63B5F6DDE"
-			tasks: [{
-				id: "203BBCA9AD656E6B"
-				item: "adchimneys:metal_vent"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "203BBCA9AD656E6B"
+					item: "adchimneys:metal_vent"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["1D9FFEF63B5F6DDE"]
 			description: [
-				"needed to pull from iron vents"
+				"{ftbquests.chapter.avanced_chim.quests4.description0}"
 				""
-				"Vents need to be on the side of the block and chimneys on tops"
+				"{ftbquests.chapter.avanced_chim.quests4.description2}"
 			]
 			id: "5F6563D10732963D"
-			tasks: [{
-				id: "4ADF9EFFCEC685FF"
-				item: "adchimneys:metal_pump"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4ADF9EFFCEC685FF"
+					item: "adchimneys:metal_pump"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["338DCF98A7C148D7"]
-			description: ["For left to right movement of smoke"]
+			description: ["{ftbquests.chapter.avanced_chim.quests5.description}"]
 			id: "416B6D6D07E27426"
-			tasks: [{
-				id: "033FE92A96B402C6"
-				item: "adchimneys:stone_vent"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "033FE92A96B402C6"
+					item: "adchimneys:stone_vent"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 1.5d
 		}
 		{
 			dependencies: ["11E96C97CDA7AD95"]
-			description: ["A simple chimney that more for the looks then anything. can be painted with block and brush"]
+			description: ["{ftbquests.chapter.avanced_chim.quests6.description}"]
 			id: "338DCF98A7C148D7"
-			tasks: [{
-				id: "2FE7598DFEF552B9"
-				item: "adchimneys:stone_chimney"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2FE7598DFEF552B9"
+					item: "adchimneys:stone_chimney"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3E452B2052205616"]
 			id: "0C9602EC303DEF6B"
-			tasks: [{
-				id: "103E4E7F682A5139"
-				item: {
-					Count: 1b
-					id: "adchimneys:wooden_paintbrush"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "103E4E7F682A5139"
+					item: {
+						Count: 1b
+						id: "adchimneys:wooden_paintbrush"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 0.0d
 			y: 1.5d
 		}
 		{
 			dependencies: ["10191888E8E7FABD"]
-			description: ["There are no uses for these other then for looks meaning you do not have to put then around your base if you hate there look."]
+			description: ["{ftbquests.chapter.avanced_chim.quests8.description}"]
 			id: "727FC24846BCFB3F"
-			tasks: [{
-				id: "780F448FFAA77C59"
-				title: "These are Decorative!"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "780F448FFAA77C59"
+					title: "{ftbquests.chapter.avanced_chim.quests8.tasks0.title}"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: -1.5d
 		}
 	]
-	title: "Avanced Chimneys"
+	title: "{ftbquests.chapter.avanced_chim.title}"
 }

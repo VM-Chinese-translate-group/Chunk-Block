@@ -11,11 +11,13 @@
 		{
 			dependencies: ["482DB3D15B4A9AD6"]
 			id: "3DD6633EBB1D353B"
-			tasks: [{
-				id: "727C76C91CF93187"
-				item: "mysticalagriculture:inferium_essence"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "727C76C91CF93187"
+					item: "mysticalagriculture:inferium_essence"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 0.0d
 		}
@@ -25,11 +27,13 @@
 				"4960986712FE8920"
 			]
 			id: "78868E86DBC539AD"
-			tasks: [{
-				id: "2AE8FFD36C302D21"
-				item: "mysticalagriculture:prudentium_essence"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2AE8FFD36C302D21"
+					item: "mysticalagriculture:prudentium_essence"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 0.0d
 		}
@@ -39,11 +43,13 @@
 				"165C71233B731BF4"
 			]
 			id: "3C9D19FEFFDC4ECA"
-			tasks: [{
-				id: "58A2A33E1B114796"
-				item: "mysticalagriculture:tertium_essence"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "58A2A33E1B114796"
+					item: "mysticalagriculture:tertium_essence"
+					type: "item"
+				}
+			]
 			x: 5.5d
 			y: 0.0d
 		}
@@ -53,11 +59,13 @@
 				"0AAD369BE34838CD"
 			]
 			id: "1C08A089FDB2B0B7"
-			tasks: [{
-				id: "1AD82807430E67E6"
-				item: "mysticalagriculture:imperium_essence"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1AD82807430E67E6"
+					item: "mysticalagriculture:imperium_essence"
+					type: "item"
+				}
+			]
 			x: 7.5d
 			y: 0.0d
 		}
@@ -67,11 +75,13 @@
 				"6460AC6B638161BD"
 			]
 			id: "496EE3452B9F4FA8"
-			tasks: [{
-				id: "37DF1F58EEFC1E7F"
-				item: "mysticalagriculture:supremium_essence"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "37DF1F58EEFC1E7F"
+					item: "mysticalagriculture:supremium_essence"
+					type: "item"
+				}
+			]
 			x: 9.5d
 			y: 0.0d
 		}
@@ -81,107 +91,121 @@
 				"1FE9EBF7661F8B8C"
 			]
 			id: "0FAA89876CCEABAE"
-			tasks: [{
-				id: "3D31F848F3B92DA4"
-				item: "mysticalagradditions:insanium_essence"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3D31F848F3B92DA4"
+					item: "mysticalagradditions:insanium_essence"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3DD6633EBB1D353B"]
 			id: "4960986712FE8920"
-			tasks: [{
-				id: "4511E66888800AA8"
-				item: {
-					Count: 1b
-					id: "matc:inferium_crystal"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "4511E66888800AA8"
+					item: {
+						Count: 1b
+						id: "matc:inferium_crystal"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["78868E86DBC539AD"]
 			id: "165C71233B731BF4"
-			tasks: [{
-				id: "0DF2A11227EA899B"
-				item: {
-					Count: 1b
-					id: "matc:prudentium_crystal"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "0DF2A11227EA899B"
+					item: {
+						Count: 1b
+						id: "matc:prudentium_crystal"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 4.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["3C9D19FEFFDC4ECA"]
 			id: "0AAD369BE34838CD"
-			tasks: [{
-				id: "4789AE97F5994178"
-				item: {
-					Count: 1b
-					id: "matc:tertium_crystal"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "4789AE97F5994178"
+					item: {
+						Count: 1b
+						id: "matc:tertium_crystal"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 6.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["1C08A089FDB2B0B7"]
 			id: "6460AC6B638161BD"
-			tasks: [{
-				id: "582A1032708D74AD"
-				item: {
-					Count: 1b
-					id: "matc:imperium_crystal"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "582A1032708D74AD"
+					item: {
+						Count: 1b
+						id: "matc:imperium_crystal"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 8.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["496EE3452B9F4FA8"]
 			id: "1FE9EBF7661F8B8C"
-			tasks: [{
-				id: "7415DFCE5C75C0CE"
-				item: {
-					Count: 1b
-					id: "matc:supremium_crystal"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "7415DFCE5C75C0CE"
+					item: {
+						Count: 1b
+						id: "matc:supremium_crystal"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 10.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["0FAA89876CCEABAE"]
 			id: "52C00070A80B0FA7"
-			tasks: [{
-				id: "0C7B8BF8D4DF6DD1"
-				item: "mysticalagriculture:master_infusion_crystal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0C7B8BF8D4DF6DD1"
+					item: "mysticalagriculture:master_infusion_crystal"
+					type: "item"
+				}
+			]
 			x: 11.5d
 			y: 1.0d
 		}
@@ -207,11 +231,13 @@
 		{
 			dependencies: ["3DD6633EBB1D353B"]
 			id: "798B9C6B0F7AF5B0"
-			tasks: [{
-				id: "14CDCE4E34C6B0F2"
-				item: "mysticalagriculture:inferium_seeds"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "14CDCE4E34C6B0F2"
+					item: "mysticalagriculture:inferium_seeds"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 0.0d
 		}
@@ -273,7 +299,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 1 Seeds"
+			title: "{ftbquests.chapter.mystic_crops.quests14.title}"
 			x: 1.5d
 			y: -1.0d
 		}
@@ -375,7 +401,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 2 Seeds"
+			title: "{ftbquests.chapter.mystic_crops.quests15.title}"
 			x: 3.5d
 			y: -1.0d
 		}
@@ -522,7 +548,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 3 Seeds"
+			title: "{ftbquests.chapter.mystic_crops.quests16.title}"
 			x: 5.5d
 			y: -1.0d
 		}
@@ -629,7 +655,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 4 Seeds"
+			title: "{ftbquests.chapter.mystic_crops.quests17.title}"
 			x: 7.5d
 			y: -1.0d
 		}
@@ -686,7 +712,7 @@
 					type: "item"
 				}
 			]
-			title: "Tier 5 Seeds"
+			title: "{ftbquests.chapter.mystic_crops.quests18.title}"
 			x: 9.5d
 			y: -1.0d
 		}
@@ -713,10 +739,10 @@
 					type: "item"
 				}
 			]
-			title: "Tier 6 Seeds"
+			title: "{ftbquests.chapter.mystic_crops.quests19.title}"
 			x: 11.5d
 			y: -1.0d
 		}
 	]
-	title: "Mystic Crops"
+	title: "{ftbquests.chapter.mystic_crops.title}"
 }

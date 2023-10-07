@@ -17,97 +17,109 @@
 		{
 			dependencies: ["0A48A9F1C65BEF85"]
 			id: "4BD48834415D1E04"
-			tasks: [{
-				id: "05541C0CE7082A30"
-				item: {
-					Count: 1b
-					id: "aquaculture:iron_fishing_rod"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "05541C0CE7082A30"
+					item: {
+						Count: 1b
+						id: "aquaculture:iron_fishing_rod"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0A48A9F1C65BEF85"]
 			id: "1FF41E160F8DBD2E"
-			tasks: [{
-				id: "4B5052B50B40C36F"
-				item: {
-					Count: 1b
-					id: "aquaculture:gold_fishing_rod"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "4B5052B50B40C36F"
+					item: {
+						Count: 1b
+						id: "aquaculture:gold_fishing_rod"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0A48A9F1C65BEF85"]
 			id: "25A8EFF6B4069E80"
-			tasks: [{
-				id: "7E3B8AE81430860E"
-				item: {
-					Count: 1b
-					id: "aquaculture:diamond_fishing_rod"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "7E3B8AE81430860E"
+					item: {
+						Count: 1b
+						id: "aquaculture:diamond_fishing_rod"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2B427C5F71F01E1A"]
 			id: "51BCB2AAB25DC105"
-			tasks: [{
-				id: "25FA7282EB2774E3"
-				item: "aquaculture:tackle_box"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "25FA7282EB2774E3"
+					item: "aquaculture:tackle_box"
+					type: "item"
+				}
+			]
 			x: 3.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["10191888E8E7FABD"]
-			description: ["usful to get worms"]
+			description: ["{ftbquests.chapter.fishing.quests4.description}"]
 			id: "10B347C93CDF2E4C"
-			tasks: [{
-				id: "5B8CE428C5528E25"
-				item: "aquaculture:worm_farm"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5B8CE428C5528E25"
+					item: "aquaculture:worm_farm"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["10B347C93CDF2E4C"]
 			id: "3C62B6F113CF0D21"
-			tasks: [{
-				id: "1F0E35D626A2ADA4"
-				item: {
-					Count: 1b
-					id: "aquaculture:worm"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "1F0E35D626A2ADA4"
+					item: {
+						Count: 1b
+						id: "aquaculture:worm"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 5.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["2B427C5F71F01E1A"]
-			description: ["There are a lot of type of hooks picking what fits you is best"]
+			description: ["{ftbquests.chapter.fishing.quests6.description}"]
 			id: "0C6F1769E7EA599B"
 			tasks: [
 				{
@@ -156,7 +168,7 @@
 					type: "item"
 				}
 			]
-			title: "Hooks"
+			title: "{ftbquests.chapter.fishing.quests6.title}"
 			x: 3.5d
 			y: 1.0d
 		}
@@ -185,7 +197,7 @@
 				"25A8EFF6B4069E80"
 			]
 			dependency_requirement: "one_completed"
-			description: ["Added drops with some nice loot"]
+			description: ["{ftbquests.chapter.fishing.quests8.description}"]
 			id: "3BC76E1F1AF20692"
 			tasks: [
 				{
@@ -261,7 +273,7 @@
 					type: "item"
 				}
 			]
-			title: "Armor of the Sea"
+			title: "{ftbquests.chapter.fishing.quests9.title}"
 			x: 0.5d
 			y: 2.0d
 		}
@@ -338,10 +350,10 @@
 					type: "item"
 				}
 			]
-			title: "Tools of the Sea"
+			title: "{ftbquests.chapter.fishing.quests10.title}"
 			x: 1.5d
 			y: 2.0d
 		}
 	]
-	title: "Fishing"
+	title: "{ftbquests.chapter.fishing.title}"
 }

@@ -14,61 +14,71 @@
 				"56A81957D9850115"
 			]
 			id: "67AD4D04060D2CC1"
-			tasks: [{
-				id: "3ED909D944F67EA7"
-				item: {
-					Count: 1b
-					id: "patchouli:guide_book"
-					tag: {
-						"patchouli:book": "naturesaura:book"
+			tasks: [
+				{
+					id: "3ED909D944F67EA7"
+					item: {
+						Count: 1b
+						id: "patchouli:guide_book"
+						tag: {
+							"patchouli:book": "naturesaura:book"
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["67AD4D04060D2CC1"]
 			id: "7E2ED6025FBEACFE"
-			tasks: [{
-				id: "2FE8E80A0BCA94A4"
-				item: "naturesaura:gold_fiber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2FE8E80A0BCA94A4"
+					item: "naturesaura:gold_fiber"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7E2ED6025FBEACFE"]
 			id: "50ADD669097C6566"
-			tasks: [{
-				id: "0F32EF9A9CD2FAE0"
-				item: "naturesaura:gold_leaf"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0F32EF9A9CD2FAE0"
+					item: "naturesaura:gold_leaf"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["50ADD669097C6566"]
 			id: "0FB3E4BC8DB454A3"
-			tasks: [{
-				id: "2ABB29576876A382"
-				item: "naturesaura:wood_stand"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2ABB29576876A382"
+					item: "naturesaura:wood_stand"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["50ADD669097C6566"]
 			id: "44B003D9FD5E0678"
-			tasks: [{
-				id: "298F512116B578A8"
-				item: "naturesaura:gold_powder"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "298F512116B578A8"
+					item: "naturesaura:gold_powder"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: -2.0d
 		}
@@ -104,18 +114,20 @@
 					type: "item"
 				}
 			]
-			title: "Tokens"
+			title: "{ftbquests.chapter.nature_aura.quests5.title}"
 			x: 3.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["67AD4D04060D2CC1"]
 			id: "02C278CD4C450915"
-			tasks: [{
-				id: "3B89559A21EEC7B6"
-				item: "naturesaura:bottle_two_the_rebottling"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3B89559A21EEC7B6"
+					item: "naturesaura:bottle_two_the_rebottling"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -2.0d
 		}
@@ -168,40 +180,46 @@
 					type: "item"
 				}
 			]
-			title: "Bottled Air?"
+			title: "{ftbquests.chapter.nature_aura.quests7.title}"
 			x: 0.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["0FB3E4BC8DB454A3"]
 			id: "70BA8EF4F4A39CBC"
-			tasks: [{
-				id: "0E1170245449345C"
-				item: "naturesaura:nature_altar"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0E1170245449345C"
+					item: "naturesaura:nature_altar"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["70BA8EF4F4A39CBC"]
 			id: "7BE114663676EF2C"
-			tasks: [{
-				id: "30CF951DC5DA0B3F"
-				item: "naturesaura:infused_stone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "30CF951DC5DA0B3F"
+					item: "naturesaura:infused_stone"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["70BA8EF4F4A39CBC"]
 			id: "71C9BF8C4E411308"
-			tasks: [{
-				id: "0F4D63C1D217097F"
-				item: "naturesaura:infused_iron"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0F4D63C1D217097F"
+					item: "naturesaura:infused_iron"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -1.0d
 		}
@@ -210,13 +228,15 @@
 				"70BA8EF4F4A39CBC"
 				"433C1AC4D18E82C8"
 			]
-			description: ["Requires nether version of the alter use book to check for info on how to make"]
+			description: ["{ftbquests.chapter.nature_aura.quests11.description}"]
 			id: "26C2F1736C69C118"
-			tasks: [{
-				id: "45216401ABFAF828"
-				item: "naturesaura:tainted_gold"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "45216401ABFAF828"
+					item: "naturesaura:tainted_gold"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: 0.0d
 		}
@@ -226,11 +246,13 @@
 				"433C1AC4D18E82C8"
 			]
 			id: "1E7D7A22C808CCFF"
-			tasks: [{
-				id: "5F579D242F155AFE"
-				item: "naturesaura:fortress_finder"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5F579D242F155AFE"
+					item: "naturesaura:fortress_finder"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -3.0d
 		}
@@ -240,11 +262,13 @@
 				"3A48D682AA6C23C5"
 			]
 			id: "78BB10A67D7CBFF5"
-			tasks: [{
-				id: "565D9F9AB8101D95"
-				item: "naturesaura:end_city_finder"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "565D9F9AB8101D95"
+					item: "naturesaura:end_city_finder"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -4.0d
 		}
@@ -254,11 +278,13 @@
 				"71C9BF8C4E411308"
 			]
 			id: "680A10D84413AF0D"
-			tasks: [{
-				id: "6E18E0F19B944815"
-				item: "naturesaura:offering_table"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6E18E0F19B944815"
+					item: "naturesaura:offering_table"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -2.0d
 		}
@@ -269,11 +295,13 @@
 				"239A264E87917483"
 			]
 			id: "468775B1F92D9CBA"
-			tasks: [{
-				id: "543FA0859447CBE4"
-				item: "naturesaura:calling_spirit"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "543FA0859447CBE4"
+					item: "naturesaura:calling_spirit"
+					type: "item"
+				}
+			]
 			x: 5.0d
 			y: -2.0d
 		}
@@ -305,7 +333,7 @@
 					type: "item"
 				}
 			]
-			title: "Advanced Tokens"
+			title: "{ftbquests.chapter.nature_aura.quests16.title}"
 			x: 5.0d
 			y: -3.0d
 		}
@@ -315,11 +343,13 @@
 				"468775B1F92D9CBA"
 			]
 			id: "740B3E4109C462E5"
-			tasks: [{
-				id: "57C650B3C89823EA"
-				item: "naturesaura:sky_ingot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "57C650B3C89823EA"
+					item: "naturesaura:sky_ingot"
+					type: "item"
+				}
+			]
 			x: 4.0d
 			y: -3.0d
 		}
@@ -343,7 +373,7 @@
 					type: "item"
 				}
 			]
-			title: "Rails"
+			title: "{ftbquests.chapter.nature_aura.quests18.title}"
 			x: 6.0d
 			y: -3.0d
 		}
@@ -367,7 +397,7 @@
 					type: "item"
 				}
 			]
-			title: "Tokens"
+			title: "{ftbquests.chapter.nature_aura.quests19.title}"
 			x: 6.0d
 			y: -4.0d
 		}
@@ -396,13 +426,13 @@
 					type: "item"
 				}
 			]
-			title: "Staffs"
+			title: "{ftbquests.chapter.nature_aura.quests20.title}"
 			x: 5.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["24C804F369E965A8"]
-			description: ["Explain for each block coming soon in a discription near you!"]
+			description: ["{ftbquests.chapter.nature_aura.quests21.description}"]
 			id: "2A33FE1403744FA9"
 			tasks: [
 				{
@@ -456,7 +486,7 @@
 					type: "item"
 				}
 			]
-			title: "Misc Blocks"
+			title: "{ftbquests.chapter.nature_aura.quests21.title}"
 			x: 4.0d
 			y: -4.0d
 		}
@@ -475,18 +505,20 @@
 					type: "item"
 				}
 			]
-			title: "\"everlasting\" items"
+			title: "{ftbquests.chapter.nature_aura.quests22.title}"
 			x: 6.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0FB3E4BC8DB454A3"]
 			id: "187AB537333BBEE9"
-			tasks: [{
-				id: "3E930CEBB297D537"
-				item: "naturesaura:break_prevention"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3E930CEBB297D537"
+					item: "naturesaura:break_prevention"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 1.0d
 		}
@@ -508,7 +540,7 @@
 					type: "item"
 				}
 			]
-			title: "Cat... the thing blocks"
+			title: "{ftbquests.chapter.nature_aura.quests24.title}"
 			x: 3.0d
 			y: 1.0d
 		}
@@ -518,14 +550,16 @@
 				"50ADD669097C6566"
 			]
 			id: "0BE0E24E14E4E392"
-			tasks: [{
-				id: "63A1BA7D2B7C2A1B"
-				item: "naturesaura:ancient_sapling"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "63A1BA7D2B7C2A1B"
+					item: "naturesaura:ancient_sapling"
+					type: "item"
+				}
+			]
 			x: 2.0d
 			y: 0.0d
 		}
 	]
-	title: "Nature Aura"
+	title: "{ftbquests.chapter.nature_aura.title}"
 }

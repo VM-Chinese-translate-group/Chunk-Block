@@ -11,61 +11,71 @@
 		{
 			dependencies: ["6B354F44967ECE0C"]
 			id: "0CFA5CAC33810167"
-			tasks: [{
-				id: "64C00E25A388DA2E"
-				item: "integrateddynamics:crystalized_menril_chunk"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "64C00E25A388DA2E"
+					item: "integrateddynamics:crystalized_menril_chunk"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["0CFA5CAC33810167"]
 			id: "7F3F442AAFC137D1"
-			tasks: [{
-				id: "11CC53E281C3B4DF"
-				item: "integrateddynamics:on_the_dynamics_of_integration"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "11CC53E281C3B4DF"
+					item: "integrateddynamics:on_the_dynamics_of_integration"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["2B427C5F71F01E1A"]
 			id: "79288F8C8569862A"
-			tasks: [{
-				id: "369BA8CCC0A4EF21"
-				item: "integrateddynamics:drying_basin"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "369BA8CCC0A4EF21"
+					item: "integrateddynamics:drying_basin"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2B427C5F71F01E1A"]
 			id: "4B47BDA43BE20183"
-			tasks: [{
-				id: "66622353556533F3"
-				item: "integrateddynamics:squeezer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "66622353556533F3"
+					item: "integrateddynamics:squeezer"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0CFA5CAC33810167"]
 			id: "3F69DB3D4DC6F6BC"
-			tasks: [{
-				id: "6BB37740708BECA4"
-				item: {
-					Count: 1b
-					id: "integrateddynamics:energy_battery"
-					tag: {
-						energy: 0
+			tasks: [
+				{
+					id: "6BB37740708BECA4"
+					item: {
+						Count: 1b
+						id: "integrateddynamics:energy_battery"
+						tag: {
+							energy: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 1.0d
 			y: 0.0d
 		}
@@ -75,11 +85,13 @@
 				"3F69DB3D4DC6F6BC"
 			]
 			id: "15385743F126F265"
-			tasks: [{
-				id: "322EA380B447506F"
-				item: "integrateddynamics:mechanical_squeezer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "322EA380B447506F"
+					item: "integrateddynamics:mechanical_squeezer"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -2.0d
 		}
@@ -89,77 +101,91 @@
 				"3F69DB3D4DC6F6BC"
 			]
 			id: "36DB0BAEDCAE970D"
-			tasks: [{
-				id: "2574917B53205283"
-				item: "integrateddynamics:mechanical_drying_basin"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2574917B53205283"
+					item: "integrateddynamics:mechanical_drying_basin"
+					type: "item"
+				}
+			]
 			x: 1.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["0CFA5CAC33810167"]
 			id: "26B11C98196ADAFE"
-			tasks: [{
-				id: "01E493FB99407D38"
-				item: "integrateddynamics:variable"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "01E493FB99407D38"
+					item: "integrateddynamics:variable"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["26B11C98196ADAFE"]
 			id: "6AB0DF660E37D81B"
-			tasks: [{
-				id: "3882BD35727A3923"
-				item: "integrateddynamics:variable_transformer_input"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3882BD35727A3923"
+					item: "integrateddynamics:variable_transformer_input"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["26B11C98196ADAFE"]
 			id: "62FF1990C312F984"
-			tasks: [{
-				id: "5C6B15847D70B0F8"
-				item: "integrateddynamics:variable_transformer_output"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5C6B15847D70B0F8"
+					item: "integrateddynamics:variable_transformer_output"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["26B11C98196ADAFE"]
 			id: "3F70DA4EA63252A1"
-			tasks: [{
-				id: "087890111173D8F0"
-				item: "integrateddynamics:proxy"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "087890111173D8F0"
+					item: "integrateddynamics:proxy"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["26B11C98196ADAFE"]
 			id: "6A0BF06DEF4C21AF"
-			tasks: [{
-				id: "109737C0BDEE2505"
-				item: "integrateddynamics:delay"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "109737C0BDEE2505"
+					item: "integrateddynamics:delay"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 1.0d
 		}
 		{
 			dependencies: ["26B11C98196ADAFE"]
 			id: "3366CE9246BBBA97"
-			tasks: [{
-				id: "4FC5EB79F86B5F68"
-				item: "integrateddynamics:materializer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4FC5EB79F86B5F68"
+					item: "integrateddynamics:materializer"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: -1.0d
 		}
@@ -183,10 +209,10 @@
 					type: "item"
 				}
 			]
-			title: "Interface"
+			title: "{ftbquests.chapter.integreated.quests13.title}"
 			x: 1.0d
 			y: 1.0d
 		}
 	]
-	title: "Integrated"
+	title: "{ftbquests.chapter.integreated.title}"
 }

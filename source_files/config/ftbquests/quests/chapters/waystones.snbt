@@ -22,11 +22,13 @@
 				"354A285106D6DB75"
 			]
 			id: "0384B406767BE0FF"
-			tasks: [{
-				id: "7B2F14F771877785"
-				item: "waystones:waystone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7B2F14F771877785"
+					item: "waystones:waystone"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
@@ -38,28 +40,32 @@
 				"354A285106D6DB75"
 			]
 			description: [
-				"unlike the waystone you don't need to activate these and they are aways public to one another"
+				"{ftbquests.chapter.waystones.quests1.description0}"
 				""
-				"Hint: Perfect for a server"
+				"{ftbquests.chapter.waystones.quests1.description2}"
 			]
 			id: "76C7F2718C532020"
-			tasks: [{
-				id: "17877E8F4ACB70E1"
-				item: "waystones:sharestone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "17877E8F4ACB70E1"
+					item: "waystones:sharestone"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3B7122301CBEB670"]
-			description: ["with 2 of them you can telaport anthing even monsters between the two"]
+			description: ["{ftbquests.chapter.waystones.quests2.description}"]
 			id: "0450A30F0B5C33B1"
-			tasks: [{
-				id: "2DEB6DB9B43026E6"
-				item: "waystones:warp_plate"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2DEB6DB9B43026E6"
+					item: "waystones:warp_plate"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 2.0d
 		}
@@ -69,13 +75,15 @@
 				"468C1ACB40665834"
 				"354A285106D6DB75"
 			]
-			description: ["one way telaporting"]
+			description: ["{ftbquests.chapter.waystones.quests3.description}"]
 			id: "5D61DA53DBB51BFC"
-			tasks: [{
-				id: "53A29A1F8151F6B5"
-				item: "waystones:portstone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "53A29A1F8151F6B5"
+					item: "waystones:portstone"
+					type: "item"
+				}
+			]
 			x: 4.5d
 			y: 0.0d
 		}
@@ -84,13 +92,15 @@
 				"00A18C2E975E8AC4"
 				"57BD1DBC116B3C06"
 			]
-			description: ["lets you return to the waystone you set on the scroll once"]
+			description: ["{ftbquests.chapter.waystones.quests4.description}"]
 			id: "5EDD9DC0F1F564E3"
-			tasks: [{
-				id: "544D0CF067E78FD9"
-				item: "waystones:return_scroll"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "544D0CF067E78FD9"
+					item: "waystones:return_scroll"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 2.0d
 		}
@@ -100,13 +110,15 @@
 				"57BD1DBC116B3C06"
 				"354A285106D6DB75"
 			]
-			description: ["binds a waystone to the scroll and lets someone else use it to activate that waystone"]
+			description: ["{ftbquests.chapter.waystones.quests5.description}"]
 			id: "540953BBE52AEC29"
-			tasks: [{
-				id: "0471E62C90F8DF1B"
-				item: "waystones:bound_scroll"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0471E62C90F8DF1B"
+					item: "waystones:bound_scroll"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: 2.0d
 		}
@@ -115,19 +127,21 @@
 				"354A285106D6DB75"
 				"468C1ACB40665834"
 			]
-			description: ["Lets you telaport to any waystone free of xp cost at a cooldown cost instead"]
+			description: ["{ftbquests.chapter.waystones.quests6.description}"]
 			id: "79B1B4D97101A3FB"
-			tasks: [{
-				id: "633D12462DC02DA8"
-				item: {
-					Count: 1b
-					id: "waystones:warp_stone"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "633D12462DC02DA8"
+					item: {
+						Count: 1b
+						id: "waystones:warp_stone"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 4.5d
 			y: 2.0d
 		}
@@ -137,14 +151,16 @@
 				"07EFDB47453AB2FD"
 			]
 			id: "3B7122301CBEB670"
-			tasks: [{
-				id: "4BAB1946619EADB2"
-				item: "waystones:warp_dust"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4BAB1946619EADB2"
+					item: "waystones:warp_dust"
+					type: "item"
+				}
+			]
 			x: 3.0d
 			y: 0.0d
 		}
 	]
-	title: "Waystones"
+	title: "{ftbquests.chapter.waystones.title}"
 }

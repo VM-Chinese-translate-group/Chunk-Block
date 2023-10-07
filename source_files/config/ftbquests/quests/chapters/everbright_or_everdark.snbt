@@ -10,45 +10,51 @@
 	quests: [
 		{
 			description: [
-				"There will be no quest for these dimasions"
+				"{ftbquests.chapter.everbright_or_everdark.quests0.description0}"
 				""
-				"do to fact that you will need to find a portal to one of them then get into the other by going though that one its to random to know what portal you will get."
+				"{ftbquests.chapter.everbright_or_everdark.quests0.description2}"
 				""
-				"along that line most if the progress you will make its vanilla but changed to look diffrent. "
+				"{ftbquests.chapter.everbright_or_everdark.quests0.description4}"
 				""
 				""
-				"A freindly tip i can give you is this when you enter do not try to use your existing tools as they will not work and alway keep it mind its as if your restarting."
+				"{ftbquests.chapter.everbright_or_everdark.quests0.description7}"
 			]
 			id: "6ECCBBF1ED5D4340"
-			tasks: [{
-				id: "2F4AB57AF9E2FC61"
-				title: "The restart dimensions"
-				type: "checkmark"
-			}]
+			tasks: [
+				{
+					id: "2F4AB57AF9E2FC61"
+					title: "{ftbquests.chapter.everbright_or_everdark.quests0.tasks0.title}"
+					type: "checkmark"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6ECCBBF1ED5D4340"]
-			description: ["Warning: once you enter all tools/ armor you have will be not be effective anymore this is do to the dim"]
+			description: ["{ftbquests.chapter.everbright_or_everdark.quests1.description}"]
 			id: "658688CE912E8FE1"
-			tasks: [{
-				dimension: "blue_skies:everbright"
-				id: "194566AB7E747193"
-				type: "dimension"
-			}]
+			tasks: [
+				{
+					dimension: "blue_skies:everbright"
+					id: "194566AB7E747193"
+					type: "dimension"
+				}
+			]
 			x: 1.0d
 			y: -0.5d
 		}
 		{
 			dependencies: ["6ECCBBF1ED5D4340"]
-			description: ["Warning: Once you enter all tool/ armor you have will not be effective anymore this is to the dim"]
+			description: ["{ftbquests.chapter.everbright_or_everdark.quests2.description}"]
 			id: "67AA408B824CCD61"
-			tasks: [{
-				dimension: "blue_skies:everdawn"
-				id: "6A1BD34E2976D64F"
-				type: "dimension"
-			}]
+			tasks: [
+				{
+					dimension: "blue_skies:everdawn"
+					id: "6A1BD34E2976D64F"
+					type: "dimension"
+				}
+			]
 			x: 1.0d
 			y: 0.5d
 		}
@@ -112,5 +118,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Everbright or Everdark"
+	title: "{ftbquests.chapter.everbright_or_everdark.title}"
 }

@@ -11,27 +11,31 @@
 		{
 			dependencies: ["3F1205BC086D4E3C"]
 			id: "7D11CCFD3D46695A"
-			tasks: [{
-				id: "43331F8BC6BF4831"
-				item: "ae2:certus_quartz_crystal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "43331F8BC6BF4831"
+					item: "ae2:certus_quartz_crystal"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["6B354F44967ECE0C"]
 			id: "7AD27080E82D9A2C"
-			tasks: [{
-				block: "ae2:mysterious_cube"
-				block_type: 0
-				checkItem: false
-				icon: "ae2:mysterious_cube"
-				id: "51F90326E59B5311"
-				title: "Break the Weird Tech"
-				type: "questsadditions:break"
-				value: 1L
-			}]
+			tasks: [
+				{
+					block: "ae2:mysterious_cube"
+					block_type: 0
+					checkItem: false
+					icon: "ae2:mysterious_cube"
+					id: "51F90326E59B5311"
+					title: "{ftbquests.chapter.ae2.quests1.tasks0.title}"
+					type: "questsadditions:break"
+					value: 1L
+				}
+			]
 			x: -1.0d
 			y: 1.0d
 		}
@@ -41,22 +45,26 @@
 				"7EC72EE5E69DFED9"
 			]
 			id: "7AE3BC1039CC7B94"
-			tasks: [{
-				id: "032DD561E15134D4"
-				item: "ae2:charged_certus_quartz_crystal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "032DD561E15134D4"
+					item: "ae2:charged_certus_quartz_crystal"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["7D11CCFD3D46695A"]
 			id: "7EC72EE5E69DFED9"
-			tasks: [{
-				id: "5EDF0F7DD7BC83AC"
-				item: "ae2:charger"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5EDF0F7DD7BC83AC"
+					item: "ae2:charger"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: -1.0d
 		}
@@ -67,66 +75,78 @@
 				"71010DD83209448B"
 			]
 			id: "2233CB7DA041A8C8"
-			tasks: [{
-				id: "669AC7F34E3B5B88"
-				item: "ae2:inscriber"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "669AC7F34E3B5B88"
+					item: "ae2:inscriber"
+					type: "item"
+				}
+			]
 			x: -1.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["07B879350EA7E226"]
 			id: "65FC4159DE8B80F0"
-			tasks: [{
-				id: "48B00365815A39DC"
-				item: "ae2:logic_processor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48B00365815A39DC"
+					item: "ae2:logic_processor"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2233CB7DA041A8C8"]
 			id: "07B879350EA7E226"
-			tasks: [{
-				id: "5737890E4F17A276"
-				item: "ae2:printed_logic_processor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5737890E4F17A276"
+					item: "ae2:printed_logic_processor"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["2233CB7DA041A8C8"]
 			id: "4BD2F1EE7BB3878A"
-			tasks: [{
-				id: "2E376F78710C7590"
-				item: "ae2:printed_engineering_processor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2E376F78710C7590"
+					item: "ae2:printed_engineering_processor"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["4BD2F1EE7BB3878A"]
 			id: "1BB4036E827514DF"
-			tasks: [{
-				id: "43C77878BFE2825F"
-				item: "ae2:engineering_processor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "43C77878BFE2825F"
+					item: "ae2:engineering_processor"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -1.0d
 		}
 		{
 			dependencies: ["2233CB7DA041A8C8"]
 			id: "248A61C747FFE2FE"
-			tasks: [{
-				id: "5B3983B59E6EBA04"
-				item: "ae2:printed_calculation_processor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "5B3983B59E6EBA04"
+					item: "ae2:printed_calculation_processor"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: -2.0d
 		}
@@ -143,7 +163,7 @@
 							value: "forge:dusts/ender_pearl"
 						}
 					}
-					title: "Any #forge:dusts/ender_pearl"
+					title: "{ftbquests.chapter.ae2.quests10.tasks0.title}"
 					type: "item"
 				}
 				{
@@ -155,7 +175,7 @@
 							value: "forge:dusts/certus_quartz"
 						}
 					}
-					title: "Any #forge:dusts/certus_quartz"
+					title: "{ftbquests.chapter.ae2.quests10.tasks1.title}"
 					type: "item"
 				}
 				{
@@ -167,7 +187,7 @@
 							value: "forge:dusts/fluix"
 						}
 					}
-					title: "Any #forge:dusts/fluix"
+					title: "{ftbquests.chapter.ae2.quests10.tasks2.title}"
 					type: "item"
 				}
 				{
@@ -182,11 +202,13 @@
 		{
 			dependencies: ["248A61C747FFE2FE"]
 			id: "351C7861BD4E439E"
-			tasks: [{
-				id: "2D9E24C85E7861FA"
-				item: "ae2:calculation_processor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2D9E24C85E7861FA"
+					item: "ae2:calculation_processor"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: -2.0d
 		}
@@ -221,11 +243,13 @@
 		{
 			dependencies: ["65FC4159DE8B80F0"]
 			id: "1E93D36ADD2125D5"
-			tasks: [{
-				id: "48854E07D02BDF3D"
-				item: "ae2:cell_component_1k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "48854E07D02BDF3D"
+					item: "ae2:cell_component_1k"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 0.0d
 		}
@@ -250,11 +274,13 @@
 		{
 			dependencies: ["1E93D36ADD2125D5"]
 			id: "685D937E9D9DEF09"
-			tasks: [{
-				id: "17700BDC2567D3AD"
-				item: "ae2:cell_component_4k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "17700BDC2567D3AD"
+					item: "ae2:cell_component_4k"
+					type: "item"
+				}
+			]
 			x: -5.0d
 			y: 0.0d
 		}
@@ -264,33 +290,39 @@
 				"685D937E9D9DEF09"
 			]
 			id: "55B188EC692D59C4"
-			tasks: [{
-				id: "151221866DC2AC93"
-				item: "ae2:cell_component_16k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "151221866DC2AC93"
+					item: "ae2:cell_component_16k"
+					type: "item"
+				}
+			]
 			x: -6.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["55B188EC692D59C4"]
 			id: "3D2B27D215B5A8FB"
-			tasks: [{
-				id: "52E109EEC9C7A15C"
-				item: "ae2:cell_component_64k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "52E109EEC9C7A15C"
+					item: "ae2:cell_component_64k"
+					type: "item"
+				}
+			]
 			x: -7.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3D2B27D215B5A8FB"]
 			id: "54A7F38ED125D57A"
-			tasks: [{
-				id: "580A62C2477D7AAB"
-				item: "ae2:cell_component_256k"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "580A62C2477D7AAB"
+					item: "ae2:cell_component_256k"
+					type: "item"
+				}
+			]
 			x: -8.0d
 			y: 0.0d
 		}
@@ -301,11 +333,13 @@
 				"3CCCA17AE1A25D67"
 			]
 			id: "68E4AEA6FCCF8B4B"
-			tasks: [{
-				id: "77965D93089FA27B"
-				item: "ae2:semi_dark_monitor"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "77965D93089FA27B"
+					item: "ae2:semi_dark_monitor"
+					type: "item"
+				}
+			]
 			x: -2.0d
 			y: 1.0d
 		}
@@ -315,11 +349,13 @@
 				"68E4AEA6FCCF8B4B"
 			]
 			id: "26401A45CEEA82A7"
-			tasks: [{
-				id: "4161653C453B29AB"
-				item: "ae2:terminal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4161653C453B29AB"
+					item: "ae2:terminal"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 2.0d
 		}
@@ -344,15 +380,17 @@
 		{
 			dependencies: ["41A69E5B4AE1AF7E"]
 			id: "780F3E7B438D9520"
-			tasks: [{
-				id: "6E32A80682984726"
-				item: {
-					Count: 1b
-					id: "ae2:energy_cell"
-					tag: { }
+			tasks: [
+				{
+					id: "6E32A80682984726"
+					item: {
+						Count: 1b
+						id: "ae2:energy_cell"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -3.0d
 			y: -3.0d
 		}
@@ -362,41 +400,47 @@
 				"351C7861BD4E439E"
 			]
 			id: "320818BD56BD93E6"
-			tasks: [{
-				id: "176F4E15B31D5D0C"
-				item: {
-					Count: 1b
-					id: "ae2:dense_energy_cell"
-					tag: { }
+			tasks: [
+				{
+					id: "176F4E15B31D5D0C"
+					item: {
+						Count: 1b
+						id: "ae2:dense_energy_cell"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -4.0d
 			y: -2.0d
 		}
 		{
 			dependencies: ["26401A45CEEA82A7"]
 			id: "357277A1559A2B72"
-			tasks: [{
-				id: "632DC3722811DF98"
-				item: "ae2:wireless_terminal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "632DC3722811DF98"
+					item: "ae2:wireless_terminal"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["357277A1559A2B72"]
 			id: "64807395EAF29A4A"
-			tasks: [{
-				id: "2EB83193C7B8B35E"
-				item: {
-					Count: 1b
-					id: "ae2:wireless_crafting_terminal"
-					tag: { }
+			tasks: [
+				{
+					id: "2EB83193C7B8B35E"
+					item: {
+						Count: 1b
+						id: "ae2:wireless_crafting_terminal"
+						tag: { }
+					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: -3.0d
 			y: 4.0d
 		}
@@ -406,33 +450,39 @@
 				"4F1637DB89B62395"
 			]
 			id: "32C5D87CB4879261"
-			tasks: [{
-				id: "6689AB61A0A6FF93"
-				item: "ae2wtlib:wireless_universal_terminal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6689AB61A0A6FF93"
+					item: "ae2wtlib:wireless_universal_terminal"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["64807395EAF29A4A"]
 			id: "2C63B9B8B7CF890D"
-			tasks: [{
-				id: "14E2E4D8538877D4"
-				item: "ae2wtlib:wireless_pattern_access_terminal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "14E2E4D8538877D4"
+					item: "ae2wtlib:wireless_pattern_access_terminal"
+					type: "item"
+				}
+			]
 			x: -4.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["64807395EAF29A4A"]
 			id: "4F1637DB89B62395"
-			tasks: [{
-				id: "78058D2F7386F216"
-				item: "ae2wtlib:wireless_pattern_encoding_terminal"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "78058D2F7386F216"
+					item: "ae2wtlib:wireless_pattern_encoding_terminal"
+					type: "item"
+				}
+			]
 			x: -3.0d
 			y: 5.0d
 		}
@@ -455,10 +505,10 @@
 					type: "item"
 				}
 			]
-			title: "Housings"
+			title: "{ftbquests.chapter.ae2.quests29.title}"
 			x: -4.0d
 			y: 1.0d
 		}
 	]
-	title: "AE2"
+	title: "{ftbquests.chapter.ae2.title}"
 }

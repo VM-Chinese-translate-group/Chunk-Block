@@ -14,25 +14,29 @@
 				"74B7B8CE11C11779"
 			]
 			id: "63B5E068FB161E3F"
-			tasks: [{
-				id: "08C0F240EFA59B27"
-				item: "botanypots:terracotta_botany_pot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "08C0F240EFA59B27"
+					item: "botanypots:terracotta_botany_pot"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["63B5E068FB161E3F"]
 			id: "1727F860053153FC"
-			tasks: [{
-				id: "13731E8DC5842FB0"
-				item: "botanypots:terracotta_hopper_botany_pot"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "13731E8DC5842FB0"
+					item: "botanypots:terracotta_hopper_botany_pot"
+					type: "item"
+				}
+			]
 			x: 0.0d
 			y: 1.0d
 		}
 	]
-	title: "Pots to Grow Stuff"
+	title: "{ftbquests.chapter.pots_to_grow_stuff.title}"
 }

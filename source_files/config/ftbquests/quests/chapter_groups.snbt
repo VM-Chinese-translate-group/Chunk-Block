@@ -1,11 +1,32 @@
 {
 	chapter_groups: [
-		{ id: "100F2B724C391D84", title: "Start" }
-		{ id: "59D4290B049808E5", title: "Basic Magic" }
-		{ id: "755AF781609E1C50", title: "Tech" }
-		{ id: "70F708EE8EB7DD2E", title: "Food" }
-		{ id: "2FBF9E2A50809E5A", title: "Dimensions" }
-		{ id: "13469D4967A56FA5", title: "Misc" }
-		{ id: "72FBE50FB2CCB101", title: "Creative!" }
+		{
+			id: "100F2B724C391D84"
+			title: "{ftbquests.chapter_groups.chapter_groups.title0}"
+		}
+		{
+			id: "59D4290B049808E5"
+			title: "{ftbquests.chapter_groups.chapter_groups.title1}"
+		}
+		{
+			id: "755AF781609E1C50"
+			title: "{ftbquests.chapter_groups.chapter_groups.title2}"
+		}
+		{
+			id: "70F708EE8EB7DD2E"
+			title: "{ftbquests.chapter_groups.chapter_groups.title3}"
+		}
+		{
+			id: "2FBF9E2A50809E5A"
+			title: "{ftbquests.chapter_groups.chapter_groups.title4}"
+		}
+		{
+			id: "13469D4967A56FA5"
+			title: "{ftbquests.chapter_groups.chapter_groups.title5}"
+		}
+		{
+			id: "72FBE50FB2CCB101"
+			title: "{ftbquests.chapter_groups.chapter_groups.title6}"
+		}
 	]
 }

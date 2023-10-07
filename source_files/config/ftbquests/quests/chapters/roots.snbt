@@ -11,35 +11,39 @@
 		{
 			dependencies: ["6B354F44967ECE0C"]
 			id: "7431F574448CE62E"
-			tasks: [{
-				id: "7BCE812C46048B98"
-				item: {
-					Count: 1b
-					id: "rootsclassic:bark_knife"
-					tag: {
-						Damage: 0
+			tasks: [
+				{
+					id: "7BCE812C46048B98"
+					item: {
+						Count: 1b
+						id: "rootsclassic:bark_knife"
+						tag: {
+							Damage: 0
+						}
 					}
+					type: "item"
 				}
-				type: "item"
-			}]
+			]
 			x: 3.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["7431F574448CE62E"]
 			id: "7161148BE80B617E"
-			tasks: [{
-				id: "5309B5F1805A8AC6"
-				item: {
-					Count: 1b
-					id: "itemfilters:tag"
-					tag: {
-						value: "rootsclassic:barks"
+			tasks: [
+				{
+					id: "5309B5F1805A8AC6"
+					item: {
+						Count: 1b
+						id: "itemfilters:tag"
+						tag: {
+							value: "rootsclassic:barks"
+						}
 					}
+					title: "{ftbquests.chapter.roots.quests1.tasks0.title}"
+					type: "item"
 				}
-				title: "Any #rootsclassic:barks"
-				type: "item"
-			}]
+			]
 			x: 2.5d
 			y: -0.5d
 		}
@@ -73,29 +77,33 @@
 					type: "item"
 				}
 			]
-			title: "Fruit"
+			title: "{ftbquests.chapter.roots.quests2.title}"
 			x: -2.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["6B354F44967ECE0C"]
 			id: "24A79AD6180E6E21"
-			tasks: [{
-				id: "1F6AAB41DF9794B4"
-				item: "rootsclassic:old_root"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1F6AAB41DF9794B4"
+					item: "rootsclassic:old_root"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["24A79AD6180E6E21"]
 			id: "7A1FD40BAB267652"
-			tasks: [{
-				id: "3D4C1943B6E8FBFB"
-				item: "rootsclassic:runic_tablet"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "3D4C1943B6E8FBFB"
+					item: "rootsclassic:runic_tablet"
+					type: "item"
+				}
+			]
 			x: -2.5d
 			y: -1.5d
 		}
@@ -114,7 +122,7 @@
 					type: "item"
 				}
 			]
-			title: "Mort and Peet"
+			title: "{ftbquests.chapter.roots.quests5.title}"
 			x: 0.5d
 			y: 1.5d
 		}
@@ -142,22 +150,26 @@
 				"74B7B8CE11C11779"
 			]
 			id: "20BD427F99A01326"
-			tasks: [{
-				id: "2A8B077D78509885"
-				item: "rootsclassic:imbuer"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "2A8B077D78509885"
+					item: "rootsclassic:imbuer"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: 2.5d
 		}
 		{
 			dependencies: ["3CCCA17AE1A25D67"]
 			id: "03B23F89DB95A825"
-			tasks: [{
-				id: "6D2D13AE204CE479"
-				item: "rootsclassic:radiant_daisy"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "6D2D13AE204CE479"
+					item: "rootsclassic:radiant_daisy"
+					type: "item"
+				}
+			]
 			x: -0.5d
 			y: -2.5d
 		}
@@ -167,11 +179,13 @@
 				"79792058F6061CA8"
 			]
 			id: "51BB2B6AB4981607"
-			tasks: [{
-				id: "01BDA175C928CD55"
-				item: "rootsclassic:flare_orchid"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "01BDA175C928CD55"
+					item: "rootsclassic:flare_orchid"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: -2.5d
 		}
@@ -181,33 +195,39 @@
 				"68CD8BBFC0A8F202"
 			]
 			id: "31A09B83EABAEDB4"
-			tasks: [{
-				id: "285F43A668F4F180"
-				item: "rootsclassic:midnight_bloom"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "285F43A668F4F180"
+					item: "rootsclassic:midnight_bloom"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["41C744F2657F2BAF"]
 			id: "0BAF9D256333528D"
-			tasks: [{
-				id: "21AE70E919A5378E"
-				item: "rootsclassic:mundane_standing_stone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "21AE70E919A5378E"
+					item: "rootsclassic:mundane_standing_stone"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: -1.5d
 		}
 		{
 			dependencies: ["0BAF9D256333528D"]
 			id: "5C235E9548365243"
-			tasks: [{
-				id: "1921D9D129FA2D62"
-				item: "rootsclassic:attuned_standing_stone"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "1921D9D129FA2D62"
+					item: "rootsclassic:attuned_standing_stone"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -1.5d
 		}
@@ -263,7 +283,7 @@
 					type: "item"
 				}
 			]
-			title: "Wildwood Set"
+			title: "{ftbquests.chapter.roots.quests13.title}"
 			x: 2.5d
 			y: -1.5d
 		}
@@ -316,42 +336,48 @@
 					type: "item"
 				}
 			]
-			title: "Slyvan Armor"
+			title: "{ftbquests.chapter.roots.quests14.title}"
 			x: 2.5d
 			y: 0.5d
 		}
 		{
 			dependencies: ["00A18C2E975E8AC4"]
 			id: "2EFE2ADE0D1FB047"
-			tasks: [{
-				id: "7EE7AD31CD65DE12"
-				item: "rootsclassic:verdant_sprig"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "7EE7AD31CD65DE12"
+					item: "rootsclassic:verdant_sprig"
+					type: "item"
+				}
+			]
 			x: 0.5d
 			y: -0.5d
 		}
 		{
 			dependencies: ["433C1AC4D18E82C8"]
-			description: ["Gotten from Netter Wart rarly"]
+			description: ["{ftbquests.chapter.roots.quests16.description}"]
 			id: "18B52958732D41A9"
-			tasks: [{
-				id: "087ABA576505E3B0"
-				item: "rootsclassic:infernal_bulb"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "087ABA576505E3B0"
+					item: "rootsclassic:infernal_bulb"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -2.5d
 		}
 		{
 			dependencies: ["3A48D682AA6C23C5"]
-			description: ["Gotten from chorus rarly"]
+			description: ["{ftbquests.chapter.roots.quests17.description}"]
 			id: "7F3CB12849E5D738"
-			tasks: [{
-				id: "0DCCC4A1C74D5F15"
-				item: "rootsclassic:dragons_eye"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "0DCCC4A1C74D5F15"
+					item: "rootsclassic:dragons_eye"
+					type: "item"
+				}
+			]
 			x: -1.5d
 			y: -3.5d
 		}
@@ -361,11 +387,13 @@
 				"7161148BE80B617E"
 			]
 			id: "525AFC4EE757FB6A"
-			tasks: [{
-				id: "4E2C34E951FF9398"
-				item: "rootsclassic:runic_focus"
-				type: "item"
-			}]
+			tasks: [
+				{
+					id: "4E2C34E951FF9398"
+					item: "rootsclassic:runic_focus"
+					type: "item"
+				}
+			]
 			x: 1.5d
 			y: -0.5d
 		}
@@ -429,10 +457,10 @@
 					type: "item"
 				}
 			]
-			title: "Living Tools"
+			title: "{ftbquests.chapter.roots.quests19.title}"
 			x: -0.5d
 			y: -0.5d
 		}
 	]
-	title: "Roots"
+	title: "{ftbquests.chapter.roots.title}"
 }
