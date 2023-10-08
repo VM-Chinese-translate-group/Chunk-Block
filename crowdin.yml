@@ -1,1 +1,6 @@
-
+files:
+  - source: /source_files/resourcepacks/VM-reseourcepack/assets
+    ignore:
+      - /source_files/resourcepacks/VM-reseourcepack/assets/hexerei
+      - /source_files/resourcepacks/VM-reseourcepack/assets/integratedcrafting
+    translation: '%original_path%'
