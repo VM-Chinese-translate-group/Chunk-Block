@@ -1,6 +1,1 @@
-files:
-  - source: source_files/resourcepacks/VM-reseourcepack/assets
-    ignore:
-      - hexe
-      - integra
-    translation: '%original_path%'
+
