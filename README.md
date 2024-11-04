@@ -3,7 +3,7 @@
    <h1>Chunk Block简体中文翻译</h1>
 </div>
 
-FTB官网|加载器|整合包版本|状态
+CurseForge|加载器|整合包版本|状态
 :-|:-|:-|:-
 [链接](https://www.curseforge.com/minecraft/modpacks/chunk-block)|Forge|mc1.19.2 0.0.6|*维护中*|
 
